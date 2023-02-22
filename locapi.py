@@ -8,6 +8,3 @@ data = requests.get(f"https://api.ipgeolocation.io/ipgeo?apiKey={api_key}&ip={ip
 response = data.json()
 latitude = response['latitude']
 longtude = response['longitude']
-##print(response)
-#print(response.keys())
-#print(response['calling_code'])
