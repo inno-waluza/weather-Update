@@ -15,8 +15,7 @@ if weather_data.json()['cod'] == '404':
         print("No City Found")
 elif weather_data.json()['cod'] == '401' :
         print("Invalid API key")  
-else:   
-        #print(api_response['weather'])   
+else:     
         #extracting Data
         weather = weather_data.json()['weather'][0]['description']
         temp = round(weather_data.json()['main']['temp'])
