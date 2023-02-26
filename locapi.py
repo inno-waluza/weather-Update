@@ -1,6 +1,6 @@
 import requests
-from ipFounder import ip
-from ipFounder import api_key
+from Ipfounder import ip
+from Ipfounder import api_key
 ##gets current user public ip
 ip_now = ip
 ##making http request
